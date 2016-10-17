@@ -24,10 +24,10 @@
           </span>
           <span>发布于</span>
         {% endif %}
-        <span class="date">{{think.datetime(post.create_time, 'MM月DD, YYYY')}}</span>
+        <span class="date">{{think.datetime(post.create_time, 'YYYY-MM-DD')}}</span>
       </div>
       <div class="comment">
-          <a href="/post/{{post.pathname}}.html#comments">{{post.comment_num}} comments</a>
+          <a href="/post/{{post.pathname}}.html#comments">{{post.comment_num}} 评论</a>
       </div>
     </div>
 
