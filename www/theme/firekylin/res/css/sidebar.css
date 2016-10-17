@@ -2,7 +2,8 @@
   position: fixed;
   left: 0;
   top: 0;
-  overflow: auto;
+  right: 0;
+  overflow: hidden;
   z-index: 1;
   box-shadow: 2px 1px 6px rgb(233, 226, 226);
 }
