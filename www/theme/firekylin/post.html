@@ -8,9 +8,9 @@
 <div id="page-post">
     <article class="post detail">
         <div class="meta">
-            <div class="date">{{think.datetime(post.create_time, 'MM月DD, YYYY')}}</div>
+            <div class="date">{{think.datetime(post.create_time, 'YYYY-MM-DD')}}</div>
             <div class="comment">
-                <a href="#comments">{{post.comment_num}} comments</a>
+                <a href="#comments">{{post.comment_num}} 评论</a>
             </div>
         </div>
         <h1 class="title">{{post.title}}</h1>
